@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+ <script>!function(i,n){i._plt=i._plt||(n&&n.timeOrigin?n.timeOrigin+n.now():Date.now())}(window,performance);</script>
+<link rel="preload" href="https://scripts.converteai.net/94ef4d04-705a-40d8-a613-9d4c50cf1f68/players/6a257796a278bc0f2459a168/v4/player.js" as="script">
+<link rel="preload" href="https://scripts.converteai.net/lib/js/smartplayer-wc/v4/smartplayer.js" as="script">
+<link rel="preload" href="https://cdn.converteai.net/94ef4d04-705a-40d8-a613-9d4c50cf1f68/6a257783844dd526329c0cad/main.m3u8" as="fetch">
+<link rel="dns-prefetch" href="https://cdn.converteai.net">
+<link rel="dns-prefetch" href="https://scripts.converteai.net">
+<link rel="dns-prefetch" href="https://images.converteai.net">
+<link rel="dns-prefetch" href="https://license.vturb.com">
  <script
   src="https://cdn.utmify.com.br/scripts/utms/latest.js"
   data-utmify-prevent-xcod-sck
@@ -8,7 +16,7 @@
   async
   defer
 ></script>
- <script>
+<script>
   window.pixelId = "6a166613f5460a0a6f054113";
   var a = document.createElement("script");
   a.setAttribute("async", "");
@@ -16,838 +24,1071 @@
   a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
   document.head.appendChild(a);
 </script>
-<meta charset="UTF-8"/>
-<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-<title>Casa de Passarinhos — Oficina Online de Artesanato Manual</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400&family=Lora:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet"/>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eu, Passarinho – Oficina Online</title>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
 <style>
-*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth}
-body{font-family:'Nunito',sans-serif;background:#fff;color:#2d1a0e;overflow-x:hidden}
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #fff;
+    font-family: 'Lato', sans-serif;
+    color: #3a3a3a;
+    max-width: 480px;
+    margin: 0 auto;
+  }
 
-:root{
-  --green:#3d7a4f;
-  --green-light:#e8f4ec;
-  --green-dark:#2a5536;
-  --amber:#c97d2a;
-  --amber-light:#fdf3e3;
-  --cream:#faf7f2;
-  --brown:#2d1a0e;
-  --muted:#6b4f3a;
-  --border:#e8ddd0;
-  --serif:'Lora',Georgia,serif;
-}
+  /* ── SEÇÃO PROMESSA (topo) ── */
+  .promessa {
+    padding: 22px 24px 12px;
+    text-align: center;
+  }
+  .promessa p {
+    font-size: 15.5px;
+    line-height: 1.6;
+    color: #3a3a3a;
+  }
+  .promessa p strong { font-weight: 900; }
 
-/* ── URGENCY BAR ── */
-.urgency-bar{background:var(--green-dark);color:#fff;text-align:center;padding:10px 16px;font-size:13px;font-weight:700;letter-spacing:.03em}
-.urgency-bar span{color:#ffd166}
+  /* ── IMAGEM COLLAGE ── */
+  .collage-wrap {
+    padding: 0 14px;
+    margin: 14px 0 10px;
+  }
+  .collage-wrap img {
+    width: 100%;
+    border-radius: 12px;
+    border: 1.5px solid #c8d8b8;
+    display: block;
+  }
 
-/* ── HERO ── */
-.hero{background:var(--cream);padding:60px 20px 70px}
-.hero-inner{max-width:780px;margin:0 auto;text-align:center}
-.hero-eyebrow{display:inline-flex;align-items:center;gap:8px;background:var(--green-light);color:var(--green-dark);font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;padding:6px 14px;border-radius:100px;margin-bottom:20px}
-.hero h1{font-family:var(--serif);font-size:clamp(28px,4vw,48px);font-weight:600;line-height:1.2;color:var(--brown);margin-bottom:24px}
-.hero h1 em{font-style:italic;color:var(--green)}
-.hero-mockup{width:100%;max-width:560px;border-radius:16px;display:block;margin:0 auto 28px;box-shadow:0 16px 48px rgba(0,0,0,.13)}
-.hero-desc{font-size:17px;color:var(--muted);line-height:1.65;margin-bottom:28px;max-width:620px;margin-left:auto;margin-right:auto}
-.check-list{list-style:none;display:flex;flex-direction:column;gap:10px;margin-bottom:32px;text-align:left;max-width:520px;margin-left:auto;margin-right:auto}
-.check-list li{display:flex;align-items:flex-start;gap:10px;font-size:15px;color:var(--brown)}
-.check-list li::before{content:'✓';flex-shrink:0;width:22px;height:22px;background:var(--green);color:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:900;line-height:1;padding-top:1px;margin-top:1px}
-.delivery-badges{display:flex;align-items:center;justify-content:center;gap:8px;margin-top:16px;font-size:13px;color:var(--muted);font-weight:600}
+  /* ── TÍTULO OFICINA ── */
+  .titulo-oficina {
+    text-align: center;
+    padding: 10px 0 4px;
+  }
+  .titulo-oficina .label {
+    font-size: 11px;
+    letter-spacing: 3.5px;
+    font-weight: 700;
+    color: #555;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 2px;
+  }
+  .titulo-oficina .nome-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+  }
+  .titulo-oficina h1 {
+    font-family: 'Caveat', cursive;
+    font-size: 42px;
+    font-weight: 700;
+    color: #7a9e6e;
+    line-height: 1;
+  }
 
-/* ── CTA BUTTONS ── */
-@keyframes pulse-green{0%,100%{box-shadow:0 0 0 0 rgba(61,122,79,.45)}70%{box-shadow:0 0 0 10px rgba(61,122,79,0)}}
-.btn-primary{display:inline-flex;align-items:center;justify-content:center;gap:10px;background:var(--green);color:#fff;font-family:'Nunito',sans-serif;font-size:16px;font-weight:800;text-decoration:none;padding:18px 36px;border-radius:8px;transition:background .2s,transform .15s,box-shadow .2s;letter-spacing:.02em;width:100%;text-align:center;animation:pulse-green 2.2s infinite}
-.btn-primary:hover{background:var(--green-dark);transform:translateY(-2px);box-shadow:0 8px 24px rgba(61,122,79,.35);animation:none}
+  /* ── BOTÃO CTA ── */
+  .cta-wrap {
+    padding: 14px 22px 6px;
+  }
+  .btn-cta {
+    display: block;
+    width: 100%;
+    background: #7a9e6e;
+    color: #fff;
+    text-align: center;
+    border-radius: 50px;
+    padding: 18px 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    line-height: 1.3;
+    box-shadow: 0 3px 12px rgba(90,122,80,0.22);
+    transition: background 0.2s, transform 0.15s;
+  }
+  .btn-cta:hover { background: #5a7a50; transform: translateY(-2px); }
 
-/* ── SECTION COMMONS ── */
-.section{padding:80px 20px}
-.section.gray{background:var(--cream)}
-.section.dark{background:var(--brown);color:#fff}
-.container{max-width:1000px;margin:0 auto}
-.section-eyebrow{font-size:11px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:var(--green);margin-bottom:12px}
-.section.dark .section-eyebrow{color:#9ed1ad}
-.section-title{font-family:var(--serif);font-size:clamp(26px,3.2vw,42px);font-weight:600;line-height:1.2;color:var(--brown);margin-bottom:16px}
-.section.dark .section-title{color:#fff}
-.section-title em{font-style:italic;color:var(--green)}
-.section.dark .section-title em{color:#9ed1ad}
-.section-sub{font-size:16px;color:var(--muted);line-height:1.65;max-width:600px;margin-bottom:48px}
-.section.dark .section-sub{color:#c8b8ac}
+  /* ── DETALHES ── */
+  .detalhes {
+    padding: 16px 24px 10px;
+    text-align: center;
+  }
+  .detalhes .descricao {
+    font-size: 15px;
+    line-height: 1.65;
+    color: #3a3a3a;
+    margin-bottom: 16px;
+  }
+  .detalhes .descricao strong { font-weight: 900; }
 
-/* ── AUTO SLIDER (Gallery) ── */
-.auto-slider{position:relative;overflow:hidden;border-radius:16px;margin-top:40px;background:#000}
-.auto-slider-track{display:flex;transition:transform .6s ease}
-.auto-slider-track img{min-width:100%;width:100%;height:420px;object-fit:contain;flex-shrink:0;background:var(--cream)}
-.slider-dots{display:flex;justify-content:center;gap:8px;margin-top:16px}
-.slider-dot{width:10px;height:10px;border-radius:50%;background:var(--border);border:none;cursor:pointer;padding:0;transition:background .2s}
-.slider-dot.active{background:var(--green)}
-.slider-arrows{position:absolute;top:50%;transform:translateY(-50%);width:100%;display:flex;justify-content:space-between;padding:0 12px;pointer-events:none}
-.slider-arrow{width:40px;height:40px;border-radius:50%;background:rgba(255,255,255,.85);border:none;cursor:pointer;font-size:18px;color:var(--brown);pointer-events:all;transition:.2s;display:flex;align-items:center;justify-content:center}
-.slider-arrow:hover{background:#fff}
+  .beneficios {
+    list-style: none;
+    text-align: left;
+    display: inline-block;
+    margin-bottom: 18px;
+  }
+  .beneficios li {
+    font-size: 15px;
+    color: #3a3a3a;
+    margin-bottom: 7px;
+    padding-left: 4px;
+  }
+  .beneficios li::before {
+    content: '✓ ';
+    color: #7a9e6e;
+    font-weight: 900;
+  }
 
-/* ── FEATURES ── */
-.features-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;margin-top:40px}
-.feat-card{background:#fff;border:1px solid var(--border);border-radius:12px;padding:28px;display:flex;gap:16px;align-items:flex-start}
-.feat-icon{font-size:28px;flex-shrink:0;line-height:1}
-.feat-card h3{font-size:16px;font-weight:800;color:var(--brown);margin-bottom:6px}
-.feat-card p{font-size:14px;color:var(--muted);line-height:1.6}
+  .frase-inspiracao {
+    font-size: 13.5px;
+    font-style: italic;
+    color: #7a6a5a;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
 
-/* ── BENEFITS ── */
-.benefits-wrap{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:start;margin-top:40px}
-.benefits-list{display:flex;flex-direction:column;gap:16px}
-.benefit-item{display:flex;align-items:flex-start;gap:12px;font-size:15px;color:var(--brown);line-height:1.55}
-.benefit-item::before{content:'✓';flex-shrink:0;width:24px;height:24px;background:var(--green);color:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:900;margin-top:1px}
+  /* ── CHAMADA FINAL ── */
+  .chamada {
+    padding: 4px 24px 16px;
+    text-align: center;
+  }
+  .chamada h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    font-weight: 900;
+    color: #3a3a3a;
+    line-height: 1.25;
+  }
 
-/* ── SOCIAL PROOF SLIDER ── */
-.proof-slider{position:relative;overflow:hidden;border-radius:16px;margin-top:40px}
-.proof-track{display:flex;transition:transform .5s ease}
-.proof-slide{min-width:100%;flex-shrink:0}
-.proof-slide img{width:100%;border-radius:12px;display:block;max-height:520px;object-fit:contain;background:var(--cream)}
-.proof-nav{display:flex;justify-content:center;gap:8px;margin-top:14px}
-.proof-dot{width:10px;height:10px;border-radius:50%;background:var(--border);border:none;cursor:pointer;padding:0;transition:background .2s}
-.proof-dot.active{background:var(--green)}
+  /* ── PARA VOCÊ QUE ── */
+  .para-voce {
+    padding: 0 24px 20px;
+  }
+  .lista-voce {
+    list-style: none;
+    text-align: center;
+  }
+  .lista-voce li {
+    font-size: 14.5px;
+    color: #3a3a3a;
+    margin-bottom: 6px;
+    line-height: 1.45;
+  }
+  .lista-voce li::before {
+    content: '✓ ';
+    color: #7a9e6e;
+    font-weight: 900;
+  }
 
-/* ── URGENCY BLOCK ── */
-.urgency-block{background:var(--amber-light);border:2px solid var(--amber);border-radius:16px;padding:40px;text-align:center;max-width:700px;margin:0 auto}
-.urgency-block h2{font-family:var(--serif);font-size:clamp(20px,3vw,32px);font-weight:600;font-style:italic;color:var(--brown);line-height:1.3;margin-bottom:24px}
-.timer{display:flex;align-items:center;justify-content:center;gap:8px;margin-bottom:32px}
-.timer-unit{text-align:center}
-.timer-num{display:flex;align-items:center;justify-content:center;background:var(--brown);color:#fff;font-family:var(--serif);font-size:42px;font-weight:600;width:80px;height:80px;border-radius:10px}
-.timer-label{font-size:11px;font-weight:700;color:var(--muted);letter-spacing:.08em;text-transform:uppercase;margin-top:6px}
-.timer-sep{font-size:36px;font-weight:900;color:var(--amber);margin-bottom:24px}
+  /* ── O QUE VAI APRENDER ── */
+  .aprender {
+    padding: 10px 24px 20px;
+  }
+  .sec-titulo {
+    font-family: "Lato", sans-serif;
+    font-size: 21px;
+    font-weight: 900;
+    color: #3a3a3a;
+    text-align: center;
+    margin-bottom: 14px;
+    line-height: 1.2;
+  }
+  .sec-titulo--verde {
+    color: #7a9e6e;
+  }
+  .aprender-intro {
+    font-size: 14.5px;
+    line-height: 1.6;
+    text-align: center;
+    margin-bottom: 14px;
+    color: #3a3a3a;
+  }
+  .aprender-intro strong { font-weight: 900; }
+  .lista-modelos {
+    list-style: none;
+    text-align: center;
+  }
+  .lista-modelos li {
+    font-size: 14.5px;
+    font-weight: 700;
+    color: #3a3a3a;
+    margin-bottom: 7px;
+    line-height: 1.4;
+  }
+  .lista-modelos li::before {
+    content: '♡ ';
+    color: #7a9e6e;
+    font-weight: 400;
+  }
+  .lista-modelos li span {
+    font-weight: 400;
+  }
 
-/* ── FOR YOU ── */
-.foryou-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;margin-top:40px}
-.foryou-card{background:#fff;border:1px solid var(--border);border-radius:12px;padding:28px 24px;display:flex;gap:14px;align-items:flex-start}
-.foryou-check{flex-shrink:0;width:28px;height:28px;background:var(--green);color:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:900;margin-top:2px}
-.foryou-card h3{font-size:15px;font-weight:800;color:var(--brown);margin-bottom:6px}
-.foryou-card p{font-size:13px;color:var(--muted);line-height:1.6}
+  /* ── HISTÓRIAS NARRADAS ── */
+  .historias {
+    padding: 10px 0 10px;
+  }
+  .historias .sec-titulo--verde {
+    padding: 0 24px;
+  }
+  .historias-texto {
+    font-size: 14.5px;
+    line-height: 1.65;
+    text-align: center;
+    color: #3a3a3a;
+    padding: 0 24px;
+    margin-bottom: 16px;
+  }
+  .livros-wrap {
+    width: 100%;
+    overflow: hidden;
+  }
+  .livros-wrap img {
+    width: 100%;
+    display: block;
+  }
 
-/* ── WHAT YOU GET ── */
-.product-block{background:var(--green-light);border:2px solid var(--green);border-radius:16px;padding:40px;display:grid;grid-template-columns:300px 1fr;gap:48px;align-items:start;margin-top:40px}
-.product-block img{width:100%;border-radius:12px}
-.product-block h3{font-family:var(--serif);font-size:26px;font-weight:600;color:var(--brown);margin-bottom:20px}
-.product-check-list{list-style:none;display:flex;flex-direction:column;gap:10px}
-.product-check-list li{display:flex;align-items:flex-start;gap:10px;font-size:14px;color:var(--brown)}
-.product-check-list li::before{content:'✓';flex-shrink:0;background:var(--green);color:#fff;border-radius:50%;width:20px;height:20px;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:900;margin-top:1px}
-.instant-badge{display:inline-flex;align-items:center;gap:8px;background:var(--amber);color:#fff;font-size:12px;font-weight:800;padding:6px 14px;border-radius:100px;letter-spacing:.06em;margin-bottom:20px}
+  /* ── TÍTULOS HISTÓRIAS ── */
+  .titulos-historias {
+    padding: 0 24px 16px;
+  }
 
-/* ── BONUSES ── */
-.bonus-list{display:flex;flex-direction:column;gap:24px;margin-top:40px}
-.bonus-card{background:#fff;border:1px solid var(--border);border-radius:12px;padding:28px;display:grid;grid-template-columns:160px 1fr;gap:28px;align-items:start}
-.bonus-card img{width:100%;border-radius:8px;display:block}
-.bonus-tag{display:inline-flex;align-items:center;gap:6px;background:var(--amber);color:#fff;font-size:11px;font-weight:800;letter-spacing:.1em;padding:4px 12px;border-radius:100px;text-transform:uppercase;margin-bottom:12px}
-.bonus-card h3{font-size:17px;font-weight:800;color:var(--brown);margin-bottom:10px}
-.bonus-card p{font-size:14px;color:var(--muted);line-height:1.6;margin-bottom:14px}
-.bonus-bullets{list-style:none;display:flex;flex-direction:column;gap:6px}
-.bonus-bullets li{display:flex;align-items:flex-start;gap:8px;font-size:13px;color:var(--muted)}
-.bonus-bullets li::before{content:'✓';flex-shrink:0;color:var(--green);font-weight:900}
-.bonus-price{font-size:14px;color:var(--muted);margin-top:14px}
-.bonus-price s{color:#aaa}
-.bonus-price strong{color:var(--green);font-weight:800}
+  /* ── COMO FUNCIONA / APOSTILA / CERTIFICADO ── */
+  .como-funciona,
+  .apostila,
+  .certificado {
+    padding: 14px 24px 10px;
+  }
+  .sec-titulo--box-verde {
+    background: #e8f0e0;
+    border-radius: 8px;
+    padding: 10px 18px;
+    font-size: 20px;
+    color: #5a7a50;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 14px;
+  }
+  .bloco-texto {
+    font-size: 14.5px;
+    line-height: 1.7;
+    color: #3a3a3a;
+    text-align: center;
+  }
+  .bloco-texto strong { font-weight: 900; }
 
-/* ── PRICING ── */
-.pricing-note{text-align:center;font-size:13px;color:var(--muted);margin-bottom:32px;font-weight:600}
-.pricing-note strong{color:var(--amber)}
+  /* ── DEPOIMENTOS ── */
+  .depoimentos {
+    padding: 10px 0 20px;
+  }
+  .dep-intro {
+    font-size: 15px;
+    font-weight: 700;
+    color: #3a3a3a;
+    text-align: center;
+    line-height: 1.5;
+    padding: 0 20px 16px;
+  }
+  .dep-card {
+    padding: 14px 22px 10px;
+    border-bottom: 1px solid #ede8e0;
+  }
+  .dep-card:last-child { border-bottom: none; }
+  .dep-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 8px;
+  }
+  .dep-avatar {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center top;
+    flex-shrink: 0;
+    display: block;
+  }
+  .dep-nome {
+    font-weight: 700;
+    font-size: 15px;
+    color: #3a3a3a;
+  }
+  .dep-estrelas {
+    color: #f0b429;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+  }
+  .dep-texto {
+    font-size: 13.5px;
+    line-height: 1.65;
+    color: #3a3a3a;
+    margin-bottom: 8px;
+  }
+  .dep-amei {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 13.5px;
+    color: #3a3a3a;
+  }
+  .amei-icon {
+    background: #e05a6a;
+    color: #fff;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    flex-shrink: 0;
+  }
 
-/* New product-style plan card matching screenshot */
-.plan-card{
-  background:#e8f4ec;
-  border-radius:20px;
-  padding:40px;
-  max-width:860px;
-  margin:0 auto;
-  display:grid;
-  grid-template-columns:280px 1fr;
-  gap:40px;
-  align-items:start;
-  position:relative;
-}
-.plan-card-img{width:100%;border-radius:12px;display:block}
-.plan-card-right{}
-.plan-badge{
-  display:inline-flex;align-items:center;gap:6px;
-  background:var(--amber);color:#fff;
-  font-size:12px;font-weight:800;letter-spacing:.06em;
-  padding:6px 16px;border-radius:100px;
-  text-transform:uppercase;margin-bottom:16px;
-}
-.plan-card h3{
-  font-family:var(--serif);font-size:28px;font-weight:600;
-  color:var(--brown);margin-bottom:20px;line-height:1.2;
-}
-.plan-items{list-style:none;display:flex;flex-direction:column;gap:10px;margin-bottom:20px}
-.plan-items li{display:flex;align-items:flex-start;gap:10px;font-size:14px;color:var(--brown);line-height:1.5}
-.plan-items li .pi-check{
-  flex-shrink:0;width:22px;height:22px;
-  background:var(--green);color:#fff;border-radius:50%;
-  display:flex;align-items:center;justify-content:center;
-  font-size:11px;font-weight:900;margin-top:1px;
-}
-.plan-spec-label{
-  font-size:11px;font-weight:800;letter-spacing:.15em;
-  text-transform:uppercase;color:var(--muted);
-  margin:20px 0 12px;border-top:1px solid #cce0d4;padding-top:16px;
-}
-.plan-price{margin:24px 0 20px}
-.plan-price .from{font-size:13px;color:#aaa;text-decoration:line-through;display:block}
-.plan-price .to{font-size:48px;font-weight:900;color:var(--brown);font-family:var(--serif);line-height:1}
-.plan-price .installment{font-size:13px;color:var(--muted);margin-top:6px}
-.plan-price .saving{display:inline-block;background:#fff;color:var(--green-dark);font-size:12px;font-weight:800;padding:4px 12px;border-radius:100px;margin-top:10px;border:1px solid #b8ddc4}
-@media(max-width:700px){.plan-card{grid-template-columns:1fr}.plan-card-img{max-width:240px;margin:0 auto}}
+  /* ── SEÇÃO PREÇO ── */
+  .preco-section {
+    padding: 16px 24px 24px;
+    text-align: center;
+  }
+  .preco-viu {
+    font-size: 15px;
+    color: #3a3a3a;
+    margin-bottom: 10px;
+  }
+  .preco-frase {
+    font-size: 14.5px;
+    line-height: 1.65;
+    color: #3a3a3a;
+    margin-bottom: 18px;
+  }
+  .preco-bloco {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 18px;
+  }
+  .preco-bolha-wrap {
+    width: 140px;
+    flex-shrink: 0;
+  }
+  .preco-svg {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .preco-invest {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-size: 17px;
+    line-height: 1.5;
+    color: #3a3a3a;
+    text-align: left;
+  }
+  .btn-cta--sm {
+    font-size: 16px;
+    padding: 16px 10px;
+  }
 
-/* ── TESTIMONIALS ── */
-.t-carousel{position:relative;overflow:hidden;margin-top:40px}
-.t-track{display:flex;gap:24px;transition:transform .4s ease}
-.t-slide{min-width:calc(50% - 12px);background:#fff;border:1px solid var(--border);border-radius:12px;padding:28px;flex-shrink:0;display:flex;flex-direction:column;gap:14px}
-.t-slide img{width:100%;border-radius:8px;object-fit:cover;aspect-ratio:4/3}
-.t-stars{color:var(--amber);font-size:16px;letter-spacing:2px}
-.t-quote{font-family:var(--serif);font-style:italic;font-size:15px;color:var(--brown);line-height:1.65}
-.t-author-name{font-size:13px;font-weight:800;color:var(--brown)}
-.t-author-desc{font-size:12px;color:var(--muted)}
-.t-nav{display:flex;justify-content:center;gap:12px;margin-top:20px}
-.t-nav button{width:40px;height:40px;border-radius:50%;border:2px solid var(--border);background:#fff;cursor:pointer;font-size:16px;color:var(--brown);transition:.2s}
-.t-nav button:hover{border-color:var(--green);color:var(--green)}
+  /* ── VANESSA LIMA ── */
+  .mariana-section {
+    padding: 10px 0 0;
+  }
+  .mariana-img {
+    width: 100%;
+    display: block;
+  }
 
-/* ── GUARANTEE ── */
-.guarantee-block{background:var(--cream);border:2px solid var(--border);border-radius:16px;padding:48px;display:grid;grid-template-columns:120px 1fr;gap:40px;align-items:center;margin-top:40px}
-.guarantee-icon{font-size:80px;text-align:center;line-height:1}
-.guarantee-block h3{font-family:var(--serif);font-size:26px;font-weight:600;color:var(--brown);margin-bottom:14px}
-.guarantee-block p{font-size:15px;color:var(--muted);line-height:1.7}
-.guarantee-check{list-style:none;display:flex;flex-direction:column;gap:8px;margin:16px 0}
-.guarantee-check li{display:flex;align-items:flex-start;gap:8px;font-size:14px;color:var(--muted)}
-.guarantee-check li::before{content:'✓';flex-shrink:0;color:var(--green);font-weight:900}
+  /* ── ANIMAÇÕES DOS BOTÕES ── */
 
-/* ── STEPS ── */
-.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:40px}
-.step{text-align:center;padding:28px}
-.step-num{width:56px;height:56px;background:var(--green);color:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:var(--serif);font-size:26px;font-weight:600;margin:0 auto 16px}
-.step h3{font-size:16px;font-weight:800;color:var(--brown);margin-bottom:8px}
-.step p{font-size:14px;color:var(--muted);line-height:1.6}
+  /* 1º botão: pulsa */
+  @keyframes pulse {
+    0%   { transform: scale(1); box-shadow: 0 3px 12px rgba(90,122,80,0.22); }
+    50%  { transform: scale(1.04); box-shadow: 0 6px 22px rgba(90,122,80,0.38); }
+    100% { transform: scale(1); box-shadow: 0 3px 12px rgba(90,122,80,0.22); }
+  }
 
-/* ── FAQ ── */
-.faq-list{margin-top:40px;display:flex;flex-direction:column;gap:2px}
-.faq-item{border:1px solid var(--border);border-radius:8px;overflow:hidden;margin-bottom:8px}
-.faq-q{width:100%;text-align:left;background:#fff;border:none;padding:20px 24px;font-family:'Nunito',sans-serif;font-size:15px;font-weight:700;color:var(--brown);cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:16px}
-.faq-q:hover{background:var(--cream)}
-.faq-q .arrow{font-size:18px;color:var(--green);transition:transform .25s;flex-shrink:0}
-.faq-a{display:none;padding:0 24px 20px;font-size:14px;color:var(--muted);line-height:1.7}
-.faq-item.open .faq-a{display:block}
-.faq-item.open .arrow{transform:rotate(180deg)}
+  /* 2º botão: sacude devagar */
+  @keyframes shake-slow {
+    0%,100% { transform: rotate(0deg); }
+    20%     { transform: rotate(-2.5deg); }
+    40%     { transform: rotate(2.5deg); }
+    60%     { transform: rotate(-2deg); }
+    80%     { transform: rotate(2deg); }
+  }
 
-/* ── FOOTER ── */
-footer{background:var(--brown);color:#9e8070;text-align:center;padding:48px 24px;font-size:13px;line-height:1.8}
-footer a{color:var(--amber);text-decoration:none}
+  /* 3º botão: sacude rápido */
+  @keyframes shake-fast {
+    0%,100% { transform: rotate(0deg); }
+    15%     { transform: rotate(-4deg); }
+    30%     { transform: rotate(4deg); }
+    45%     { transform: rotate(-4deg); }
+    60%     { transform: rotate(4deg); }
+    75%     { transform: rotate(-3deg); }
+    90%     { transform: rotate(3deg); }
+  }
 
-/* ── SCROLL TARGET ── */
-#preco{scroll-margin-top:20px}
+  .btn-pulse {
+    animation: pulse 1.2s ease-in-out infinite;
+  }
+  .btn-shake-slow {
+    animation: shake-slow 2.8s ease-in-out infinite;
+    display: inline-block;
+  }
+  .btn-shake-fast {
+    animation: shake-fast 1.1s ease-in-out infinite;
+    display: inline-block;
+  }
+  /* desativa transform do hover nos botões animados para não conflitar */
+  .btn-pulse:hover,
+  .btn-shake-slow:hover,
+  .btn-shake-fast:hover { transform: none; }
 
-/* ── RESPONSIVE ── */
-@media(max-width:860px){
-  .features-grid,.foryou-grid{grid-template-columns:1fr}
-  .benefits-wrap{grid-template-columns:1fr}
-  .product-block{grid-template-columns:1fr}
-  .bonus-card{grid-template-columns:1fr}
-  .bonus-card img{max-width:160px}
-  .guarantee-block{grid-template-columns:1fr;text-align:center}
-  .steps{grid-template-columns:1fr}
-  .t-slide{min-width:85%}
-  .auto-slider-track img{height:280px}
-}
-@media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+  /* ── MINI PREÇO ACIMA DOS BOTÕES ── */
+  .mini-preco {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 0 22px 4px;
+  }
+  .mini-preco-bolha {
+    width: 140px;
+    flex-shrink: 0;
+  }
+
+  /* ── FUNDOS DAS SEÇÕES ── */
+
+  /* Branco puro - promessa + collage */
+  .promessa {
+    background: #ffffff;
+  }
+
+  /* Verde bem clarinho - detalhes/benefícios */
+  .detalhes {
+    background: #f0f5eb;
+  }
+
+  /* Bege suave - chamada + lista pra você que */
+  .chamada,
+  .para-voce {
+    background: #faf6ef;
+  }
+
+  /* Verde clarinho - o que vai aprender */
+  .aprender {
+    background: #eaf2e3;
+  }
+
+  /* Branco - histórias narradas */
+  .historias,
+  .titulos-historias {
+    background: #ffffff;
+  }
+
+  /* Bege rosado suave - como funciona */
+  .como-funciona {
+    background: #faf6ef;
+  }
+
+  /* Verde bem claro - apostila */
+  .apostila {
+    background: #f0f5eb;
+  }
+
+  /* Branco - certificado */
+  .certificado {
+    background: #ffffff;
+  }
+
+  /* Bege suave - depoimentos */
+  .depoimentos {
+    background: #faf6ef;
+  }
+
+  /* Verde clarinho - preço */
+  .preco-section {
+    background: #eaf2e3;
+  }
+
+  /* Branco - mariana */
+  .mariana-section {
+    background: #ffffff;
+  }
+
+  /* ── FOTO MODELOS ── */
+  .modelos-foto-wrap {
+    padding: 0 14px 10px;
+    background: #eaf2e3;
+  }
+  .modelos-foto {
+    width: 100%;
+    border-radius: 12px;
+    display: block;
+  }
+
+  /* ── CRONÔMETRO ── */
+  .timer-wrap {
+    background: #fff8e8;
+    border: 2px solid #e8c84a;
+    border-radius: 12px;
+    margin: 10px 22px 4px;
+    padding: 12px 16px;
+    text-align: center;
+  }
+  .timer-msg {
+    font-size: 14px;
+    font-weight: 700;
+    color: #b85c00;
+    margin-bottom: 8px;
+    line-height: 1.4;
+  }
+  .timer-display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+  }
+  .timer-block {
+    background: #5a7a50;
+    border-radius: 8px;
+    padding: 8px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 64px;
+  }
+  .timer-block span {
+    font-size: 32px;
+    font-weight: 900;
+    color: #fff;
+    line-height: 1;
+    font-family: 'Lato', sans-serif;
+  }
+  .timer-block small {
+    font-size: 11px;
+    color: #d4ecc8;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  .timer-sep {
+    font-size: 32px;
+    font-weight: 900;
+    color: #5a7a50;
+    line-height: 1;
+  }
+
+  /* ── POPUP EXIT INTENT ── */
+  #exit-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.55);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  #exit-popup {
+    background: #fff;
+    border-radius: 16px;
+    padding: 28px 22px 22px;
+    max-width: 400px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    box-shadow: 0 8px 40px rgba(0,0,0,0.18);
+  }
+  #exit-close {
+    position: absolute;
+    top: 12px;
+    right: 14px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #999;
+    cursor: pointer;
+    line-height: 1;
+  }
+  #exit-close:hover { color: #333; }
+  #exit-title {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    color: #3a3a3a;
+    margin-bottom: 16px;
+    text-align: left;
+  }
+  #exit-cupom {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    display: block;
+  }
+  .cupom-svg-wrap {
+    margin: 0 0 16px;
+    display: flex;
+    justify-content: center;
+  }
+  #exit-text {
+    font-size: 14px;
+    color: #3a3a3a;
+    line-height: 1.6;
+    margin-bottom: 18px;
+    text-align: left;
+  }
+  #exit-btn {
+    display: block;
+    width: 100%;
+    background: #5a7a50;
+    color: #fff;
+    border-radius: 50px;
+    padding: 16px 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 0 3px 12px rgba(90,122,80,0.22);
+    transition: background 0.2s;
+  }
+  #exit-btn:hover { background: #3a5a30; }
 </style>
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1768049004649837');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1768049004649837&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
 </head>
 <body>
 
-<!-- ── URGENCY BAR ── -->
-<div class="urgency-bar">
-  🐦 Oferta especial disponível apenas <span>hoje, 12/06/2026</span>
+<!-- ── TEXTO DE PROMESSA ── -->
+<section class="promessa">
+  <p>Mesmo sem <strong>máquina de costura</strong> e prática em trabalhos manuais, <strong>você aprende do zero a fazer 6 modelos de passarinhos feitos à mão.</strong></p>
+</section>
+
+<!-- ── VÍDEO ── -->
+<div class="collage-wrap">
+  <vturb-smartplayer id="vid-6a257796a278bc0f2459a168" style="display: block; margin: 0 auto; width: 100%; border-radius: 10px; overflow: hidden;"></vturb-smartplayer>
+  <script type="text/javascript"> var s=document.createElement("script"); s.src="https://scripts.converteai.net/94ef4d04-705a-40d8-a613-9d4c50cf1f68/players/6a257796a278bc0f2459a168/v4/player.js", s.async=!0,document.head.appendChild(s); </script>
 </div>
 
-<!-- ── HERO ── -->
-<section class="hero">
-  <div class="hero-inner">
-    <div class="hero-eyebrow">✦ Oficina Online</div>
-    <h1>Aprenda a fazer <em>6 modelos de passarinhos feitos à mão,</em> sem precisar de máquina de costura e com materiais simples que você tem em casa</h1>
-    <img src="https://resplendent-zuccutto-c32748.netlify.app/mockup.png" alt="Mockup Casa de Passarinhos" class="hero-mockup"/>
-    <p class="hero-desc">Mesmo sem experiência com artesanato. <strong>A primeira oficina que une fazer manual com autoconhecimento — e te devolve a leveza que o dia a dia roubou.</strong></p>
-    <ul class="check-list">
-      <li>14 aulas gravadas com passo a passo completo em materiais simples</li>
-      <li>6 modelos diferentes: tecido, lã, papel e feltro</li>
-      <li>5 histórias narradas sobre liberdade e recomeços</li>
-      <li>Apostila arte-terapêutica exclusiva em PDF</li>
-      <li>Certificado de participação ao concluir a oficina</li>
-      <li>Acesso imediato e vitalício — assista no seu ritmo</li>
-    </ul>
-    <a href="#preco" class="btn-primary" style="max-width:420px;margin:0 auto 16px">
-      🐦 Quero Garantir Minha Vaga Agora
-    </a>
-    <div class="delivery-badges">
-      <span>Você recebe acesso na hora, direto no seu</span>
-      <strong>e-mail</strong> e <strong>WhatsApp</strong>
+</div>
+
+<!-- ── BOTÃO CTA ── -->
+
+<!-- ── CRONÔMETRO REGRESSIVO ── -->
+<div class="timer-wrap">
+  <p class="timer-msg">⏳ Oferta por tempo limitado. Garanta sua vaga agora!</p>
+  <div class="timer-display">
+    <div class="timer-block">
+      <span id="timer-min">15</span>
+      <small>min</small>
     </div>
+    <span class="timer-sep">:</span>
+    <div class="timer-block">
+      <span id="timer-sec">00</span>
+      <small>seg</small>
+    </div>
+  </div>
+</div>
+<div class="cta-wrap">
+  <a href="https://ggcheckout.app/checkout/v5/rJb4wJQGBgI6XIgPIk9U" class="btn-cta btn-pulse">Quero Garantir<br>Minha Vaga</a>
+</div>
+
+<!-- ── O QUE VOCÊ VAI APRENDER ── -->
+<section class="aprender" style="margin-top: 20px;">
+  <h2 class="sec-titulo">O que você vai aprender</h2>
+  <img src="https://spectacular-genie-0fde80.netlify.app/img02.png" alt="6 modelos de passarinhos" style="width:100%;display:block;border-radius:12px;margin:14px 0;">
+  <p class="aprender-intro">Você vai confeccionar <strong>6 modelos diferentes de passarinhos,</strong> feitos totalmente à mão:</p>
+  <ul class="lista-modelos">
+    <li>Passarinho Mensageiro <span>(tecido)</span></li>
+    <li>Passarinho Aconchego <span>(lã)</span></li>
+    <li>Patinho Primavera <span>(lã)</span></li>
+    <li>Móbile de Tsurus <span>(papel)</span></li>
+    <li>Passarinho Poesia <span>(papel)</span></li>
+    <li>Passarinho Correio <span>(feltro)</span></li>
+  </ul>
+</section>
+
+<!-- ── DETALHES / BENEFÍCIOS ── -->
+<section class="detalhes">
+  <p class="descricao">São <strong>14 aulas gravadas,</strong> histórias narradas e uma apostila arte terapêutica exclusiva.</p>
+  <ul class="beneficios">
+    <li>Acesso imediato</li>
+    <li>Assista no seu ritmo</li>
+    <li>Não precisa experiência</li>
+    <li>Acesso vitalício</li>
+  </ul>
+  <p class="frase-inspiracao">Um instante de leveza pode mudar o ritmo do seu dia, e tudo começa quando você decide criar.</p>
+</section>
+
+<!-- ── CHAMADA FINAL ── -->
+<section class="chamada">
+  <h2>Essa oficina é pra você que:</h2>
+</section>
+
+
+<!-- ── LISTA PRA VOCÊ QUE ── -->
+<section class="para-voce">
+  <ul class="lista-voce">
+    <li>Ama artesanato, mas anda sem inspiração</li>
+    <li>Sente que vive só para cumprir tarefas</li>
+    <li>Quer um momento só seu</li>
+    <li>Busca um fazer manual com intenção</li>
+    <li>Busca uma atividade terapêutica</li>
+    <li>Quer tempo de qualidade com a família</li>
+    <li>Quer aplicar em salas de aula ou grupos</li>
+  </ul>
+</section>
+
+<!-- ── HISTÓRIAS NARRADAS ── -->
+<section class="historias">
+  <h2 class="sec-titulo sec-titulo--verde">Histórias narradas</h2>
+  <p class="historias-texto">Além das aulas, você poderá ouvir Histórias que falam sobre liberdade, sensibilidade, coragem e recomeços:</p>
+  <div class="livros-wrap">
+    <img src="https://spectacular-genie-0fde80.netlify.app/img03.jpg" alt="Livros das histórias narradas">
   </div>
 </section>
 
-<!-- ── GALLERY / AUTO SLIDER ── -->
-<section class="section gray">
-  <div class="container">
-    <p class="section-eyebrow">Veja a oficina</p>
-    <h2 class="section-title">Os passarinhos que você vai <em>criar com as próprias mãos</em></h2>
-    <p class="section-sub">6 modelos em materiais diferentes. Cada um com seu significado, sua história e sua mensagem de transformação.</p>
-    <div class="auto-slider" id="autoSlider">
-      <div class="auto-slider-track" id="autoTrack">
-        <img src="https://resplendent-zuccutto-c32748.netlify.app/la.png"      alt="Passarinho de lã"/>
-        <img src="https://resplendent-zuccutto-c32748.netlify.app/la2.png"     alt="Passarinho de lã 2"/>
-        <img src="https://resplendent-zuccutto-c32748.netlify.app/feltro.png"  alt="Passarinho de feltro"/>
-        <img src="https://resplendent-zuccutto-c32748.netlify.app/papel.png"   alt="Passarinho de papel"/>
-        <img src="https://resplendent-zuccutto-c32748.netlify.app/tecido.png"  alt="Passarinho de tecido"/>
-        <img src="https://resplendent-zuccutto-c32748.netlify.app/origami.png" alt="Passarinho origami"/>
-      </div>
-      <div class="slider-arrows">
-        <button class="slider-arrow" onclick="moveSlider(-1)">‹</button>
-        <button class="slider-arrow" onclick="moveSlider(1)">›</button>
-      </div>
+<!-- ── LISTA HISTÓRIAS (títulos dos livros) ── -->
+<section class="titulos-historias">
+  <ul class="lista-modelos">
+    <li>Canto de liberdade</li>
+    <li>Coração de passarinho</li>
+    <li>A menina e o pássaro encantado</li>
+    <li>O passarinho engaiolado</li>
+    <li>A volta do pássaro encantado</li>
+  </ul>
+</section>
+
+<!-- ── CTA 2 ── -->
+<div class="mini-preco">
+  <div class="mini-preco-bolha">
+    <svg viewBox="0 0 220 240" xmlns="http://www.w3.org/2000/svg" class="preco-svg">
+      <g transform="translate(108, 18) rotate(-10)">
+        <ellipse cx="0" cy="0" rx="18" ry="11" fill="#c8d4b0"/>
+        <circle cx="16" cy="-7" r="9" fill="#c8d4b0"/>
+        <path d="M-8,-4 Q-28,-22 -20,-8 Q-14,0 -8,4 Z" fill="#b8c8a0"/>
+        <path d="M4,-8 Q14,-26 22,-18 Q18,-10 12,-6 Z" fill="#b8c8a0"/>
+        <path d="M-18,2 Q-28,8 -24,14 Q-20,8 -14,6 Z" fill="#c8d4b0"/>
+        <path d="M25,-8 L32,-6 L25,-4" fill="#a8b890"/>
+        <circle cx="19" cy="-9" r="2" fill="#5a6a40"/>
+      </g>
+      <path d="M20,60 Q20,40 40,40 L160,40 Q200,40 200,80 L200,185 Q200,220 160,220 L80,220 Q50,220 40,200 Q30,185 20,175 Z" fill="#d4dfc0"/>
+      <text x="42" y="115" font-family="Lato,sans-serif" font-weight="900" font-size="22" fill="#3a3a3a">R$</text>
+      <text x="70" y="130" font-family="Lato,sans-serif" font-weight="900" font-size="68" fill="#3a3a3a">47</text>
+      <text x="152" y="100" font-family="Lato,sans-serif" font-weight="900" font-size="28" fill="#3a3a3a">,00</text>
+      <text x="38" y="172" font-family="Lato,sans-serif" font-weight="400" font-size="16" fill="#3a3a3a">Ou </text>
+      <text x="62" y="172" font-family="Lato,sans-serif" font-weight="900" font-size="16" fill="#3a3a3a">6x de 8,79</text>
+    </svg>
+  </div>
+  <div class="preco-invest">
+    <p>Investimento<br>único! Acesso<br>imediato!</p>
+  </div>
+</div>
+<div class="cta-wrap">
+  <a href="https://ggcheckout.app/checkout/v5/rJb4wJQGBgI6XIgPIk9U" class="btn-cta btn-shake-slow">Quero Viver Essa<br>Experiência</a>
+</div>
+
+<!-- ── COMO FUNCIONA ── -->
+<section class="como-funciona">
+  <h2 class="sec-titulo sec-titulo--box-verde">Como funciona a oficina?</h2>
+  <p class="bloco-texto">São <strong>14 AULAS GRAVADAS</strong>, organizadas em um passo a passo. Você pode assistir no seu tempo, sem pressa. Eu mostro cada material utilizado, sempre priorizando itens simples e acessíveis. Você não precisa de máquina nem de experiência, a proposta é justamente a delicadeza do fazer manual.</p>
+</section>
+
+<!-- ── APOSTILA ── -->
+<section class="apostila">
+  <h2 class="sec-titulo sec-titulo--box-verde">Apostila de apoio em pdf</h2>
+  <ul class="lista-voce">
+    <li>Lista completa de materiais</li>
+    <li>Orientações organizadas</li>
+    <li>O significado de cada passarinho</li>
+    <li>Uma reflexão para cada modelo</li>
+    <li>Uma pergunta direcionada para aprofundar a vivência daquele passarinho</li>
+    <li>A mensagem de cada uma das histórias</li>
+  </ul>
+</section>
+
+<!-- ── CERTIFICADO ── -->
+<section class="certificado">
+  <h2 class="sec-titulo sec-titulo--box-verde">Certificado</h2>
+  <p class="bloco-texto">Ao concluir a oficina, você recebe um lindo certificado de participação. Ele pode ser usado para comprovar seu aprendizado e até valorizar seu trabalho artesanal. ♡</p>
+</section>
+
+<!-- ── DEPOIMENTOS ── -->
+<section class="depoimentos">
+  <p class="dep-intro">veja o que as minhas alunas sentiram<br>ao viver essa experiência...</p>
+
+  <div class="dep-card">
+    <div class="dep-header">
+      <img class="dep-avatar" src="https://spectacular-genie-0fde80.netlify.app/dp01.jpg" alt="Raquel Lopes">
+      <span class="dep-nome">Raquel Lopes</span>
     </div>
-    <div class="slider-dots" id="sliderDots"></div>
+    <div class="dep-estrelas">★★★★★</div>
+    <p class="dep-texto"><em>Você está de parabéns! Esse seu curso, foi um dos mais incríveis e sensível que já adquiri.</em></p>
+    <p class="dep-amei"><span class="amei-icon">♥</span> <em>Amei!</em></p>
+  </div>
+
+  <div class="dep-card">
+    <div class="dep-header">
+      <img class="dep-avatar" src="https://spectacular-genie-0fde80.netlify.app/dp02.jpg" alt="Alessandra Faria">
+      <span class="dep-nome">Alessandra Faria</span>
+    </div>
+    <div class="dep-estrelas">★★★★★</div>
+    <p class="dep-texto"><em>Está redondamente de parabéns pelo conteúdo criado para a oficina. Uma delícia aprender com você, que transforma tudo que se propõe a fazer em... ENCANTADOR!</em></p>
+    <p class="dep-amei"><span class="amei-icon">♥</span> <em>Amei!</em></p>
+  </div>
+
+  <div class="dep-card">
+    <div class="dep-header">
+      <img class="dep-avatar" src="https://spectacular-genie-0fde80.netlify.app/dp03.jpg" alt="Cristiane Forselli">
+      <span class="dep-nome">Cristiane Forselli</span>
+    </div>
+    <div class="dep-estrelas">★★★★★</div>
+    <p class="dep-texto"><em>Eu gostaria de manifestar aqui, o meu agradecimento!! Em um mundo onde eu só estou vendo caos e egoísmo, veio a sua página e me trouxe exatamente o que eu necessito. Você é um ser iluminado. Pode ter certeza de que conquistou uma cliente fiel dos seus cursos Obrigada, obrigada e obrigada por fazer o bem.</em></p>
+    <p class="dep-amei"><span class="amei-icon">♥</span> <em>Amei!</em></p>
+  </div>
+
+  <div class="dep-card">
+    <div class="dep-header">
+      <img class="dep-avatar" src="https://spectacular-genie-0fde80.netlify.app/dp04.jpg" alt="Ana Magalhães">
+      <span class="dep-nome">Ana Magalhães</span>
+    </div>
+    <div class="dep-estrelas">★★★★★</div>
+    <p class="dep-texto"><em>Você é a nossa maior incentivadora, Mariana! Gratidão! Em tempo: PARABÉNS pelas aulas e apostila. O conteúdo do curso está incrível, poético… enfim, nem dá vontade de sair da plataforma! Você tem muita luz, garota! Continue assim, nessa missão linda que inspira e transforma nossas almas!</em></p>
+    <p class="dep-amei"><span class="amei-icon">♥</span> <em>Amei!</em></p>
+  </div>
+
+  <div class="dep-card">
+    <div class="dep-header">
+      <img class="dep-avatar" src="https://spectacular-genie-0fde80.netlify.app/dp05.jpg" alt="Maria Oliveira">
+      <span class="dep-nome">Maria Oliveira</span>
+    </div>
+    <div class="dep-estrelas">★★★★★</div>
+    <p class="dep-texto"><em>Eu amei demais a oficina! Que primor, que sensibilidade e delicadeza nos detalhes, na explicação, na elaboração do projeto. Estou encantada, passei até altas horas assistindo. Agora, vou providenciar o material e fazer TUDO! Isso não é só uma oficina de artesanato, é uma oficina terapêutica.</em></p>
+    <p class="dep-amei"><span class="amei-icon">♥</span> <em>Amei!</em></p>
+  </div>
+
+  <div class="dep-card">
+    <div class="dep-header">
+      <img class="dep-avatar" src="https://spectacular-genie-0fde80.netlify.app/dp06.jpg" alt="Geovana Gomes">
+      <span class="dep-nome">Geovana Gomes</span>
+    </div>
+    <div class="dep-estrelas">★★★★★</div>
+    <p class="dep-texto"><em>É difícil ver um conteúdo como o seu na Internet.. vender é preciso.. mas trazer um pouco de encantamento e poesia pra vida faz muito bem..</em></p>
+    <p class="dep-amei"><span class="amei-icon">♥</span> <em>Amei!</em></p>
+  </div>
+
+  <div class="dep-card">
+    <div class="dep-header">
+      <img class="dep-avatar" src="https://spectacular-genie-0fde80.netlify.app/dp07.jpg" alt="Patrícia Conde">
+      <span class="dep-nome">Patrícia Conde</span>
+    </div>
+    <div class="dep-estrelas">★★★★★</div>
+    <p class="dep-texto"><em>Passando pra deixar mais uma vez minha gratidão por compartilhar sua delicadeza, criatividade e inspiração, que me incentivou muito a voltar a fazer arte com mais frequência. Deixei as tarefas me roubarem de mim por muito tempo. As tarefas não diminuíram por aqui. E nem crio mais expectativas de que vão rs. Mas, eu tenho tido menos culpa em dizer não à casa, à minha filha, meu marido, meus gatos, às mensagens no zap, pra me dedicar naquilo que é o sentido da minha vida, q é o realizar-me através das minhas manualidades.</em></p>
+    <p class="dep-texto" style="margin-top:10px;"><em>Obrigada por semear a arte nos corações!</em></p>
+    <p class="dep-amei"><span class="amei-icon">♥</span> <em>Amei!</em></p>
+  </div>
+
+</section>
+
+<!-- ── SEÇÃO PREÇO ── -->
+<section class="preco-section">
+  <p class="preco-viu">Viu só? <strong>Não é só artesanato...</strong></p>
+  <p class="preco-frase"><em>Enquanto confecciona seu passarinho...<br><strong>Você se cuida, se acolhe, se reencontra.</strong> ♡</em></p>
+
+  <div class="preco-bloco">
+    <!-- bolha SVG com passarinho -->
+    <div class="preco-bolha-wrap">
+      <svg viewBox="0 0 220 240" xmlns="http://www.w3.org/2000/svg" class="preco-svg">
+        <!-- passarinho voando no topo -->
+        <g transform="translate(108, 18) rotate(-10)">
+          <!-- corpo -->
+          <ellipse cx="0" cy="0" rx="18" ry="11" fill="#c8d4b0"/>
+          <!-- cabeça -->
+          <circle cx="16" cy="-7" r="9" fill="#c8d4b0"/>
+          <!-- asa aberta esquerda -->
+          <path d="M-8,-4 Q-28,-22 -20,-8 Q-14,0 -8,4 Z" fill="#b8c8a0"/>
+          <!-- asa aberta direita -->
+          <path d="M4,-8 Q14,-26 22,-18 Q18,-10 12,-6 Z" fill="#b8c8a0"/>
+          <!-- cauda -->
+          <path d="M-18,2 Q-28,8 -24,14 Q-20,8 -14,6 Z" fill="#c8d4b0"/>
+          <!-- bico -->
+          <path d="M25,-8 L32,-6 L25,-4" fill="#a8b890"/>
+          <!-- olho -->
+          <circle cx="19" cy="-9" r="2" fill="#5a6a40"/>
+        </g>
+        <!-- bolha arredondada -->
+        <path d="M20,60 Q20,40 40,40 L160,40 Q200,40 200,80 L200,185 Q200,220 160,220 L80,220 Q50,220 40,200 Q30,185 20,175 Z" fill="#d4dfc0"/>
+        <!-- texto preço -->
+        <text x="42" y="115" font-family="Lato,sans-serif" font-weight="900" font-size="22" fill="#3a3a3a">R$</text>
+        <text x="70" y="130" font-family="Lato,sans-serif" font-weight="900" font-size="68" fill="#3a3a3a">47</text>
+        <text x="152" y="100" font-family="Lato,sans-serif" font-weight="900" font-size="28" fill="#3a3a3a">,00</text>
+        <text x="38" y="172" font-family="Lato,sans-serif" font-weight="400" font-size="16" fill="#3a3a3a">Ou </text>
+        <text x="62" y="172" font-family="Lato,sans-serif" font-weight="900" font-size="16" fill="#3a3a3a">6x de 8,79</text>
+      </svg>
+    </div>
+    <div class="preco-invest">
+      <p>Investimento<br>único! Acesso<br>imediato!</p>
+    </div>
+  </div>
+
+  <div class="cta-wrap" style="padding-top:4px;">
+    <a href="https://ggcheckout.app/checkout/v5/rJb4wJQGBgI6XIgPIk9U" class="btn-cta btn-cta--sm btn-shake-fast">Quero Participar da<br>Oficina Eu, Passarinho</a>
   </div>
 </section>
 
-<!-- ── FEATURES ── -->
-<section class="section">
-  <div class="container">
-    <p class="section-eyebrow">O que está incluído</p>
-    <h2 class="section-title">Tudo pensado para o seu <em>fazer manual com intenção</em></h2>
-    <div class="features-grid">
-      <div class="feat-card">
-        <div class="feat-icon">🎬</div>
-        <div>
-          <h3>14 Aulas Gravadas em Passo a Passo</h3>
-          <p>Cada aula mostra detalhadamente os materiais e técnicas — tudo simples e acessível. Assista quantas vezes quiser, sem pressa.</p>
-        </div>
-      </div>
-      <div class="feat-card">
-        <div class="feat-icon">📖</div>
-        <div>
-          <h3>Apostila Arte-terapêutica Exclusiva</h3>
-          <p>Com lista de materiais, o significado de cada passarinho, uma reflexão e uma pergunta de aprofundamento por modelo. Um presente para si mesma.</p>
-        </div>
-      </div>
-      <div class="feat-card">
-        <div class="feat-icon">🎙️</div>
-        <div>
-          <h3>Método das Histórias Narradas</h3>
-          <p>5 histórias sobre liberdade, sensibilidade, coragem e recomeços. Você ouve enquanto cria — é uma experiência de presença, não só aula.</p>
-        </div>
-      </div>
-      <div class="feat-card">
-        <div class="feat-icon">🎓</div>
-        <div>
-          <h3>Certificado de Participação</h3>
-          <p>Ao concluir a oficina, você recebe um certificado para comprovar seu aprendizado e valorizar seu trabalho artesanal.</p>
-        </div>
-      </div>
-    </div>
-  </div>
+<!-- ── VANESSA LIMA ── -->
+<section class="mariana-section">
+  <img src="https://spectacular-genie-0fde80.netlify.app/img04.png" alt="Mariana Oliveira" class="mariana-img">
 </section>
+<script>
+  // Passa parâmetros de URL (UTM, src, sck, etc.) para os links de checkout
+  document.addEventListener("DOMContentLoaded", function() {
+    var params = window.location.search;
+    if (!params) return;
+    var links = document.querySelectorAll('a[href*="payfast.greenn.com.br"]');
+    links.forEach(function(link) {
+      var base = link.getAttribute("href").split("?")[0];
+      var existing = link.getAttribute("href").split("?")[1];
+      if (existing) {
+        link.setAttribute("href", base + "?" + existing + "&" + params.slice(1));
+      } else {
+        link.setAttribute("href", base + params);
+      }
+    });
+  });
+</script>
 
-<!-- ── BENEFITS + SOCIAL PROOF SLIDER ── -->
-<section class="section gray">
-  <div class="container">
-    <p class="section-eyebrow">Por que a Oficina Casa de Passarinhos</p>
-    <h2 class="section-title">Por quantos meses você ainda vai adiar <em>um momento só seu?</em></h2>
-    <div class="benefits-wrap">
-      <div>
-        <ul class="benefits-list">
-          <li class="benefit-item">Para de sentir culpa por não ter tempo para você mesma</li>
-          <li class="benefit-item">Cria o hábito de um fazer manual com propósito — não só passatempo</li>
-          <li class="benefit-item">Destreza e leveza que chegam enquanto você confecciona</li>
-          <li class="benefit-item">Estimula criatividade e foco sem precisar de tela</li>
-          <li class="benefit-item"><strong>Cria momentos de presença que você vai lembrar a vida toda</strong></li>
-          <li class="benefit-item">Funciona para grupos, salas de aula e atividades terapêuticas</li>
-        </ul>
-        <a href="https://ggcheckout.app/checkout/v5/rJb4wJQGBgI6XIgPIk9U" class="btn-primary" style="max-width:380px;margin-top:32px">
-          Quero Acessar Agora e Começar Hoje →
-        </a>
-      </div>
-      <div>
-        <div class="proof-slider">
-          <div class="proof-track" id="proofTrack">
-            <div class="proof-slide"><img src="https://resplendent-zuccutto-c32748.netlify.app/dp1.png" alt="Prova social 1"/></div>
-            <div class="proof-slide"><img src="https://resplendent-zuccutto-c32748.netlify.app/dp2.png" alt="Prova social 2"/></div>
-            <div class="proof-slide"><img src="https://resplendent-zuccutto-c32748.netlify.app/dp3.png" alt="Prova social 3"/></div>
-            <div class="proof-slide"><img src="https://resplendent-zuccutto-c32748.netlify.app/dp4.png" alt="Prova social 4"/></div>
-          </div>
-        </div>
-        <div class="proof-nav" id="proofDots"></div>
-      </div>
-    </div>
-  </div>
-</section>
+<script>
+  (function() {
+    var total = 15 * 60; // 15 minutos em segundos
+    function update() {
+      var m = Math.floor(total / 60);
+      var s = total % 60;
+      document.getElementById('timer-min').textContent = m < 10 ? '0' + m : m;
+      document.getElementById('timer-sec').textContent = s < 10 ? '0' + s : s;
+      if (total > 0) {
+        total--;
+        setTimeout(update, 1000);
+      } else {
+        document.getElementById('timer-min').textContent = '00';
+        document.getElementById('timer-sec').textContent = '00';
+      }
+    }
+    update();
+  })();
+</script>
 
-<!-- ── URGENCY BLOCK ── -->
-<section class="section">
-  <div class="container">
-    <div class="urgency-block">
-      <h2>Aproveite a oferta por tempo limitado — inscrições encerram em breve</h2>
-      <div class="timer">
-        <div class="timer-unit">
-          <div class="timer-num" id="t-h">00</div>
-          <div class="timer-label">horas</div>
-        </div>
-        <div class="timer-sep">:</div>
-        <div class="timer-unit">
-          <div class="timer-num" id="t-m">23</div>
-          <div class="timer-label">min</div>
-        </div>
-        <div class="timer-sep">:</div>
-        <div class="timer-unit">
-          <div class="timer-num" id="t-s">59</div>
-          <div class="timer-label">seg</div>
-        </div>
-      </div>
-      <a href="https://ggcheckout.app/checkout/v5/rJb4wJQGBgI6XIgPIk9U" class="btn-primary" style="max-width:420px;margin:0 auto">
-        Quero Acessar Agora →
-      </a>
-    </div>
-  </div>
-</section>
 
-<!-- ── FOR YOU ── -->
-<section class="section gray">
-  <div class="container">
-    <p class="section-eyebrow">Esta oficina é ideal para você que</p>
-    <h2 class="section-title">Você se <em>reconhece aqui?</em></h2>
-    <div class="foryou-grid">
-      <div class="foryou-card">
-        <div class="foryou-check">✓</div>
-        <div>
-          <h3>Ama artesanato mas anda sem inspiração</h3>
-          <p>Você sente que quer criar mas não sabe por onde começar. Aqui você tem o caminho pronto, o material definido e o convite para começar hoje.</p>
-        </div>
-      </div>
-      <div class="foryou-card">
-        <div class="foryou-check">✓</div>
-        <div>
-          <h3>Sente que vive só para cumprir tarefas</h3>
-          <p>Você já sabe que algo está faltando. Aqui você não tira nada da sua rotina — você adiciona um momento de presença e leveza no meio de tudo.</p>
-        </div>
-      </div>
-      <div class="foryou-card">
-        <div class="foryou-check">✓</div>
-        <div>
-          <h3>Busca uma atividade terapêutica com propósito</h3>
-          <p>São +100 alunas que descrevem a oficina como terapêutica. Cada passarinho vem com uma história, um símbolo, um convite de reflexão.</p>
-        </div>
-      </div>
-      <div class="foryou-card">
-        <div class="foryou-check">✓</div>
-        <div>
-          <h3>Quer tempo de qualidade com a família</h3>
-          <p>A oficina funciona lindo em dupla — mãe e filha, vó e neta. Ou em grupos, salas de aula e espaços terapêuticos.</p>
-        </div>
-      </div>
-      <div class="foryou-card">
-        <div class="foryou-check">✓</div>
-        <div>
-          <h3>Quer ser a pessoa presente que a família lembra</h3>
-          <p>Daqui a anos, ninguém vai lembrar das redes sociais. Vão lembrar dos momentos que você criou com as próprias mãos.</p>
-        </div>
-      </div>
-      <div class="foryou-card">
-        <div class="foryou-check">✓</div>
-        <div>
-          <h3>Quer voltar a criar sem precisar de máquina</h3>
-          <p>A proposta é justamente a delicadeza do fazer manual. Sem máquina, sem complicação — só suas mãos, o material e o momento.</p>
-        </div>
-      </div>
+<!-- ── POPUP EXIT INTENT ── -->
+<div id="exit-overlay" style="display:none;">
+  <div id="exit-popup">
+    <button id="exit-close">✕</button>
+    <h3 id="exit-title">Ainda está pensando?</h3>
+    <div class="cupom-svg-wrap">
+      <svg width="280" height="120" viewBox="0 0 280 120" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <pattern id="dots" width="8" height="8" patternUnits="userSpaceOnUse">
+            <circle cx="1" cy="1" r="1" fill="rgba(255,255,255,0.15)"/>
+          </pattern>
+        </defs>
+        <!-- fundo principal -->
+        <rect width="280" height="120" rx="12" fill="#4a6e40"/>
+        <rect width="280" height="120" rx="12" fill="url(#dots)"/>
+        <!-- faixa lateral esquerda -->
+        <rect x="0" y="0" width="86" height="120" rx="12" fill="#3a5a30"/>
+        <rect x="74" y="0" width="12" height="120" fill="#3a5a30"/>
+        <!-- bolinhas de separação (serrilhado) -->
+        <circle cx="86" cy="14" r="10" fill="#fff"/>
+        <circle cx="86" cy="106" r="10" fill="#fff"/>
+        <!-- linha tracejada vertical -->
+        <line x1="86" y1="24" x2="86" y2="96" stroke="rgba(255,255,255,0.3)" stroke-width="2" stroke-dasharray="5,4"/>
+        <!-- ícone tesoura na esquerda -->
+        <text x="43" y="52" text-anchor="middle" font-size="28" fill="rgba(255,255,255,0.9)">✂</text>
+        <text x="43" y="76" text-anchor="middle" font-family="Lato,sans-serif" font-size="10" font-weight="700" fill="rgba(255,255,255,0.7)" letter-spacing="1">CUPOM</text>
+        <!-- texto direito: DESCONTO -->
+        <text x="183" y="44" text-anchor="middle" font-family="Lato,sans-serif" font-size="11" font-weight="700" fill="rgba(255,255,255,0.75)" letter-spacing="2">DESCONTO ESPECIAL</text>
+        <!-- valor R$10 -->
+        <text x="158" y="90" text-anchor="middle" font-family="Lato,sans-serif" font-size="13" font-weight="900" fill="rgba(255,255,255,0.85)">R$</text>
+        <text x="197" y="94" text-anchor="middle" font-family="Lato,sans-serif" font-size="52" font-weight="900" fill="#ffffff">10</text>
+        <text x="232" y="70" text-anchor="start" font-family="Lato,sans-serif" font-size="13" font-weight="900" fill="rgba(255,255,255,0.85)">,00</text>
+        <!-- rodapé -->
+        <text x="183" y="108" text-anchor="middle" font-family="Lato,sans-serif" font-size="10" font-weight="700" fill="rgba(255,255,255,0.65)" letter-spacing="1">NA SUA INSCRIÇÃO</text>
+      </svg>
     </div>
-  </div>
-</section>
-
-<!-- ── WHAT YOU GET ── -->
-<section class="section">
-  <div class="container">
-    <p class="section-eyebrow">Tudo que você vai receber</p>
-    <h2 class="section-title">A Oficina <em>Casa de Passarinhos</em> — completa</h2>
-    <p class="section-sub">Tudo organizado em 6 modelos para você nunca se perder e sempre ter o que criar.</p>
-    <div class="product-block">
-      <img src="https://resplendent-zuccutto-c32748.netlify.app/mockup.png" alt="Mockup Casa de Passarinhos"/>
-      <div>
-        <div class="instant-badge">⚡ Acesso Imediato</div>
-        <h3>Oficina Casa de Passarinhos</h3>
-        <ul class="product-check-list">
-          <li>14 aulas gravadas em passo a passo</li>
-          <li>Modelo 1: Passarinho Mensageiro — tecido</li>
-          <li>Modelo 2: Passarinho Aconchego — lã</li>
-          <li>Modelo 3: Patinho Primavera — lã</li>
-          <li>Modelo 4: Móbile de Tsurus — papel</li>
-          <li>Modelo 5: Passarinho Poesia — papel</li>
-          <li>Modelo 6: Passarinho Correio — feltro</li>
-          <li>🎁 Bônus: 5 histórias narradas (Canto de Liberdade, Coração de Passarinho e mais)</li>
-          <li>🎁 Bônus: Apostila arte-terapêutica em PDF com reflexões e perguntas</li>
-          <li>🎁 Bônus: Certificado de participação ao concluir</li>
-          <li>Acesso vitalício — assista no seu ritmo, para sempre</li>
-        </ul>
-        <hr style="margin:20px 0;border:none;border-top:1px solid var(--border)"/>
-        <p style="font-size:13px;color:var(--muted);font-weight:700;letter-spacing:.08em;text-transform:uppercase;margin-bottom:10px">Especificações</p>
-        <ul class="product-check-list">
-          <li>Materiais simples e acessíveis — sem máquina de costura</li>
-          <li>Sem experiência prévia necessária</li>
-          <li>Assista quantas vezes quiser, de onde estiver</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ── BONUSES ── -->
-<section class="section dark">
-  <div class="container">
-    <p class="section-eyebrow">E não para por aí...</p>
-    <h2 class="section-title">Você também vai receber</h2>
-    <p style="color:#c8b8ac;font-size:16px;margin-bottom:0">🔥 Bônus inclusos no plano completo</p>
-    <div class="bonus-list" style="margin-top:32px">
-      <div class="bonus-card">
-        <img src="https://resplendent-zuccutto-c32748.netlify.app/livros.png" alt="Histórias narradas"/>
-        <div>
-          <div class="bonus-tag">Bônus #1</div>
-          <h3>5 Histórias Narradas em Áudio</h3>
-          <p>Ouça enquanto cria. Cada história foi escolhida para acompanhar um passarinho diferente — sobre liberdade, sensibilidade, coragem e recomeços.</p>
-          <ul class="bonus-bullets">
-            <li>Canto de liberdade</li>
-            <li>Coração de passarinho</li>
-            <li>A menina e o pássaro encantado</li>
-            <li>O passarinho engaiolado</li>
-            <li>A volta do pássaro encantado</li>
-          </ul>
-          <p class="bonus-price">Valor: <s>R$27,00</s> <strong>GRÁTIS</strong></p>
-        </div>
-      </div>
-      <div class="bonus-card">
-        <img src="https://resplendent-zuccutto-c32748.netlify.app/apostila.png" alt="Apostila arte-terapêutica"/>
-        <div>
-          <div class="bonus-tag">Bônus #2</div>
-          <h3>Apostila Arte-terapêutica Exclusiva em PDF</h3>
-          <p>Um guia que vai além do passo a passo técnico — traz o significado de cada passarinho, uma reflexão e uma pergunta para aprofundar sua vivência.</p>
-          <ul class="bonus-bullets">
-            <li>Lista completa de materiais por modelo</li>
-            <li>O simbolismo de cada passarinho</li>
-            <li>Reflexão e pergunta de autoconhecimento por modelo</li>
-            <li>A mensagem de cada uma das histórias narradas</li>
-          </ul>
-          <p class="bonus-price">Valor: <s>R$17,90</s> <strong>GRÁTIS</strong></p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ── PRICING — PLANO COMPLETO ÚNICO ── -->
-<section class="section gray" id="preco">
-  <div class="container">
-    <p class="section-eyebrow" style="text-align:center">Garanta seu acesso</p>
-    <h2 class="section-title" style="text-align:center">Comece hoje por apenas <em>R$&nbsp;47</em></h2>
-    <p class="pricing-note" style="margin-top:16px"><strong>Acesso imediato e vitalício</strong> — com todos os bônus inclusos</p>
-    <div style="margin-top:40px">
-      <div class="plan-card">
-        <!-- Left: mockup image -->
-        <div>
-          <img src="https://resplendent-zuccutto-c32748.netlify.app/mockup.png" alt="Mockup Oficina Casa de Passarinhos" class="plan-card-img"/>
-        </div>
-        <!-- Right: content -->
-        <div class="plan-card-right">
-          <div class="plan-badge">⚡ Acesso Imediato</div>
-          <h3>Oficina Casa de Passarinhos</h3>
-          <ul class="plan-items">
-            <li><span class="pi-check">✓</span>14 aulas gravadas em passo a passo</li>
-            <li><span class="pi-check">✓</span>Modelo 1: Passarinho Mensageiro — tecido</li>
-            <li><span class="pi-check">✓</span>Modelo 2: Passarinho Aconchego — lã</li>
-            <li><span class="pi-check">✓</span>Modelo 3: Patinho Primavera — lã</li>
-            <li><span class="pi-check">✓</span>Modelo 4: Móbile de Tsurus — papel</li>
-            <li><span class="pi-check">✓</span>Modelo 5: Passarinho Poesia — papel</li>
-            <li><span class="pi-check">✓</span>Modelo 6: Passarinho Correio — feltro</li>
-            <li><span class="pi-check">✓</span>🎁 Bônus: 5 histórias narradas (Canto de Liberdade, Coração de Passarinho e mais)</li>
-            <li><span class="pi-check">✓</span>🎁 Bônus: Apostila arte-terapêutica em PDF com reflexões e perguntas</li>
-            <li><span class="pi-check">✓</span>🎁 Bônus: Certificado de participação ao concluir</li>
-            <li><span class="pi-check">✓</span>Acesso vitalício — assista no seu ritmo, para sempre</li>
-          </ul>
-          <div class="plan-spec-label">Especificações</div>
-          <ul class="plan-items">
-            <li><span class="pi-check">✓</span>Materiais simples e acessíveis — sem máquina de costura</li>
-            <li><span class="pi-check">✓</span>Sem experiência prévia necessária</li>
-            <li><span class="pi-check">✓</span>Assista quantas vezes quiser, de onde estiver</li>
-          </ul>
-          <div class="plan-price">
-            <span class="from">de R$119,70</span>
-            <span class="to">R$47,00</span>
-            <div class="installment">ou 6x de R$7,83 no cartão</div>
-            <span class="saving">Você economiza R$72,70</span>
-          </div>
-          <a href="https://ggcheckout.app/checkout/v5/rJb4wJQGBgI6XIgPIk9U" class="btn-primary">
-            🐦 Quero Meu Acesso Imediato e Vitalício
-          </a>
-          <p style="text-align:center;font-size:12px;color:var(--muted);margin-top:14px">🔒 Pagamento 100% seguro · Garantia de 30 dias</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ── TESTIMONIALS ── -->
-<section class="section">
-  <div class="container">
-    <p class="section-eyebrow">O que dizem as alunas</p>
-    <h2 class="section-title">Veja o que elas sentiram ao <em>viver essa experiência</em></h2>
-    <p class="section-sub">Depoimentos de quem já se reencontrou criando com as próprias mãos.</p>
-    <div class="t-carousel">
-      <div class="t-track" id="ttrack">
-        <div class="t-slide">
-          <div class="t-stars">★★★★★</div>
-          <p class="t-quote">"Esse curso foi um dos mais incríveis e sensível que já adquiri. Você está de parabéns!"</p>
-          <div><div class="t-author-name">Raquel Lopes</div><div class="t-author-desc">Aluna da Oficina</div></div>
-        </div>
-        <div class="t-slide">
-          <div class="t-stars">★★★★★</div>
-          <p class="t-quote">"Uma delícia aprender com você, que transforma tudo que se propõe a fazer em ENCANTADOR!"</p>
-          <div><div class="t-author-name">Alessandra Faria</div><div class="t-author-desc">Aluna da Oficina</div></div>
-        </div>
-        <div class="t-slide">
-          <div class="t-stars">★★★★★</div>
-          <p class="t-quote">"Que primor, que sensibilidade e delicadeza nos detalhes. Isso não é só uma oficina de artesanato, é uma oficina terapêutica."</p>
-          <div><div class="t-author-name">Maria Oliveira</div><div class="t-author-desc">Aluna da Oficina</div></div>
-        </div>
-        <div class="t-slide">
-          <div class="t-stars">★★★★★</div>
-          <p class="t-quote">"O conteúdo está incrível, poético… nem dá vontade de sair da plataforma! Você tem muita luz, garota!"</p>
-          <div><div class="t-author-name">Ana Magalhães</div><div class="t-author-desc">Aluna da Oficina</div></div>
-        </div>
-        <div class="t-slide">
-          <div class="t-stars">★★★★★</div>
-          <p class="t-quote">"Tenho tido menos culpa em dizer não às obrigações para me dedicar ao que é o sentido da minha vida: as manualidades."</p>
-          <div><div class="t-author-name">Patrícia Conde</div><div class="t-author-desc">Aluna da Oficina</div></div>
-        </div>
-        <div class="t-slide">
-          <div class="t-stars">★★★★★</div>
-          <p class="t-quote">"É difícil ver um conteúdo como o seu na Internet… trazer um pouco de encantamento e poesia pra vida faz muito bem."</p>
-          <div><div class="t-author-name">Geovana Gomes</div><div class="t-author-desc">Aluna da Oficina</div></div>
-        </div>
-      </div>
-    </div>
-    <div class="t-nav">
-      <button onclick="slideT(-1)" aria-label="Anterior">‹</button>
-      <button onclick="slideT(1)" aria-label="Próximo">›</button>
-    </div>
-    <div style="text-align:center;margin-top:32px">
-      <a href="#preco" class="btn-primary" style="max-width:420px;display:inline-flex">
-        Quero Viver Essa Experiência →
-      </a>
-    </div>
-  </div>
-</section>
-
-<!-- ── GUARANTEE ── -->
-<section class="section gray">
-  <div class="container">
-    <p class="section-eyebrow">Sem risco para você</p>
-    <h2 class="section-title">Você tem garantia de <em>30 dias</em></h2>
-    <div class="guarantee-block">
-      <div class="guarantee-icon">🛡️</div>
-      <div>
-        <h3>Satisfação garantida ou seu dinheiro de volta</h3>
-        <p>Nos primeiros 30 dias após a compra, se você achar que:</p>
-        <ul class="guarantee-check">
-          <li>a oficina não se encaixou na sua rotina</li>
-          <li>o método não funcionou para você</li>
-          <li>ou simplesmente não quer continuar</li>
-        </ul>
-        <p>👉 você solicita o reembolso. <strong>Sem burocracia. Sem explicação obrigatória.</strong></p>
-        <p style="margin-top:12px">Aqui o risco fica do nosso lado, não do seu. <strong>Se a Oficina Casa de Passarinhos não transformar o seu dia, você pega o dinheiro de volta inteiro.</strong></p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ── HOW IT WORKS ── -->
-<section class="section">
-  <div class="container">
-    <p class="section-eyebrow">Como funciona</p>
-    <h2 class="section-title" style="text-align:center">Passo a passo para <em>começar hoje</em></h2>
-    <div class="steps">
-      <div class="step">
-        <div class="step-num">1</div>
-        <h3>Conclua sua compra</h3>
-        <p>Após o pagamento, o acesso é liberado automaticamente — sem espera.</p>
-      </div>
-      <div class="step">
-        <div class="step-num">2</div>
-        <h3>Receba no e-mail e WhatsApp</h3>
-        <p>Você recebe o link de acesso direto no seu e-mail e WhatsApp na hora.</p>
-      </div>
-      <div class="step">
-        <div class="step-num">3</div>
-        <h3>Comece a sua primeira aula</h3>
-        <p>Pronto. Assista no seu ritmo, reúna os materiais e faça seu primeiro passarinho.</p>
-      </div>
-    </div>
-    <div style="text-align:center;margin-top:40px">
-      <a href="#preco" class="btn-primary" style="max-width:400px;display:inline-flex">Quero Meu Acesso Agora →</a>
-    </div>
-  </div>
-</section>
-
-<!-- ── FAQ ── -->
-<section class="section gray">
-  <div class="container">
-    <p class="section-eyebrow">Dúvidas frequentes</p>
-    <h2 class="section-title">Perguntas <em>Frequentes</em></h2>
-    <div class="faq-list">
-      <div class="faq-item">
-        <button class="faq-q" onclick="toggleFaq(this)">Preciso ter máquina de costura ou experiência? <span class="arrow">▾</span></button>
-        <div class="faq-a">Não. A oficina foi criada justamente para quem não tem máquina nem experiência. Todos os modelos são feitos à mão, com materiais simples e acessíveis.</div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-q" onclick="toggleFaq(this)">Onde vou assistir as aulas? <span class="arrow">▾</span></button>
-        <div class="faq-a">Você recebe o link de acesso imediatamente após a compra, direto no seu e-mail e WhatsApp. Assista de qualquer dispositivo, quando e onde quiser.</div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-q" onclick="toggleFaq(this)">O acesso é vitalício ou tem prazo? <span class="arrow">▾</span></button>
-        <div class="faq-a">Vitalício. Você paga uma vez e tem acesso para sempre. Pode assistir no seu próprio ritmo, sem pressão de prazo.</div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-q" onclick="toggleFaq(this)">Posso usar a oficina com grupos ou sala de aula? <span class="arrow">▾</span></button>
-        <div class="faq-a">A oficina é para uso pessoal, mas as técnicas aprendidas podem ser aplicadas em grupos, salas de aula e atividades terapêuticas.</div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-q" onclick="toggleFaq(this)">Como funciona a garantia de 30 dias? <span class="arrow">▾</span></button>
-        <div class="faq-a">Nos primeiros 30 dias após a compra, se você não se sentir satisfeita por qualquer motivo, basta solicitar o reembolso. Sem burocracia, sem perguntas. O dinheiro volta inteiro.</div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-q" onclick="toggleFaq(this)">Onde encontro os materiais para fazer os passarinhos? <span class="arrow">▾</span></button>
-        <div class="faq-a">A apostila traz a lista completa de materiais para cada modelo — tudo simples e disponível em qualquer armarinho, papelaria ou loja de artesanato.</div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-q" onclick="toggleFaq(this)">Vou receber um certificado? <span class="arrow">▾</span></button>
-        <div class="faq-a">Sim! Ao concluir a oficina, você recebe um certificado de participação para comprovar seu aprendizado e valorizar seu trabalho artesanal.</div>
-      </div>
-    </div>
-    <div style="text-align:center;margin-top:40px">
-      <a href="#preco" class="btn-primary" style="max-width:400px;display:inline-flex">Quero Meu Acesso Agora →</a>
-    </div>
-  </div>
-</section>
-
-<!-- ── FOOTER ── -->
-<footer>
-  <p>Copyright © 2026 | Todos os direitos reservados.</p>
-  <p style="margin-top:8px">Este site não é afiliado ao Facebook™, Instagram™, Google™ ou qualquer outra plataforma mencionada.</p>
-  <p style="margin-top:8px"><a href="https://ggcheckout.app/checkout/v5/rJb4wJQGBgI6XIgPIk9U">Comprar agora</a></p>
-</footer>
-
-<!-- ── EXIT POPUP ── -->
-<div id="popup" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:9999;align-items:center;justify-content:center;backdrop-filter:blur(4px)">
-  <div style="background:#fff;border-radius:16px;padding:40px 36px;max-width:440px;width:calc(100% - 32px);text-align:center;position:relative">
-    <button onclick="document.getElementById('popup').style.display='none'" style="position:absolute;top:12px;right:16px;background:none;border:none;font-size:20px;cursor:pointer;color:#888">✕</button>
-    <div style="font-size:40px;margin-bottom:8px">🐦</div>
-    <h3 style="font-family:var(--serif);font-size:26px;font-style:italic;color:var(--brown);margin-bottom:10px">Antes de ir...</h3>
-    <p style="font-size:15px;color:var(--muted);margin-bottom:12px;line-height:1.6">Que tal um presente especial? Use o cupom abaixo e ganhe <strong>R$10 de desconto</strong> na sua inscrição.</p>
-    <div style="display:inline-block;background:#f5f0e8;border:2px dashed var(--amber);border-radius:10px;padding:12px 28px;font-family:var(--serif);font-size:22px;font-weight:600;color:var(--green);letter-spacing:.1em;margin:12px 0 24px">PASSARINHO10</div><br/>
-    <a href="https://ggcheckout.app/checkout/v5/rJb4wJQGBgI6XIgPIk9U" class="btn-primary" style="display:inline-flex;max-width:320px">Resgatar R$10 de Desconto →</a>
-    <button onclick="document.getElementById('popup').style.display='none'" style="display:block;margin:14px auto 0;background:none;border:none;font-size:13px;color:#aaa;cursor:pointer;text-decoration:underline;font-family:'Nunito',sans-serif">Não, obrigada</button>
+    <p id="exit-text">Sua vaga na Oficina está te esperando, não vou deixar você sair assim. Que tal um desconto de R$10?</p>
+    <a href="https://payfast.greenn.com.br/redirect/291078" id="exit-btn">EU QUERO R$10 DE DESCONTO!</a>
   </div>
 </div>
 
 <script>
-// ── COUNTDOWN ──
-let sec = 23*3600+59*60+59;
-function tickTimer(){
-  if(sec<=0)return; sec--;
-  const h=Math.floor(sec/3600),m=Math.floor((sec%3600)/60),s=sec%60;
-  document.getElementById('t-h').textContent=String(h).padStart(2,'0');
-  document.getElementById('t-m').textContent=String(m).padStart(2,'0');
-  document.getElementById('t-s').textContent=String(s).padStart(2,'0');
-}
-setInterval(tickTimer,1000);
+  (function() {
+    var shown = false;
 
-// ── AUTO SLIDER (gallery) ──
-const TOTAL_SLIDES = 6;
-let sliderIdx = 0;
-let sliderAuto;
+    function showPopup() {
+      if (shown) return;
+      shown = true;
+      document.getElementById('exit-overlay').style.display = 'flex';
+    }
 
-const track = document.getElementById('autoTrack');
-const dotsWrap = document.getElementById('sliderDots');
+    // Desktop: mouse sai pelo topo
+    document.addEventListener('mouseleave', function(e) {
+      if (e.clientY <= 0) showPopup();
+    });
 
-// Build dots
-for(let i=0;i<TOTAL_SLIDES;i++){
-  const d=document.createElement('button');
-  d.className='slider-dot'+(i===0?' active':'');
-  d.onclick=()=>goSlider(i);
-  dotsWrap.appendChild(d);
-}
+    // Desktop + Mobile: botão voltar
+    window.history.pushState(null, '', window.location.href);
+    window.addEventListener('popstate', function() {
+      showPopup();
+      window.history.pushState(null, '', window.location.href);
+    });
 
-function goSlider(idx){
-  sliderIdx=idx;
-  track.style.transform=`translateX(-${idx*100}%)`;
-  document.querySelectorAll('.slider-dot').forEach((d,i)=>d.classList.toggle('active',i===idx));
-}
-function moveSlider(dir){
-  clearInterval(sliderAuto);
-  goSlider((sliderIdx+dir+TOTAL_SLIDES)%TOTAL_SLIDES);
-  startAuto();
-}
-function startAuto(){
-  sliderAuto=setInterval(()=>goSlider((sliderIdx+1)%TOTAL_SLIDES),3000);
-}
-startAuto();
+    // Mobile: app vai para segundo plano (troca de aba, home button)
+    document.addEventListener('visibilitychange', function() {
+      if (document.visibilityState === 'hidden') showPopup();
+    });
 
-// ── PROOF SLIDER (social proof) ──
-const PROOF_TOTAL = 4;
-let proofIdx = 0;
-let proofAuto;
+    // Mobile: página carregada do cache (bfcache - botão voltar no iOS/Android)
+    window.addEventListener('pageshow', function(e) {
+      if (e.persisted) showPopup();
+    });
 
-const proofTrack = document.getElementById('proofTrack');
-const proofDotsWrap = document.getElementById('proofDots');
-
-for(let i=0;i<PROOF_TOTAL;i++){
-  const d=document.createElement('button');
-  d.className='proof-dot'+(i===0?' active':'');
-  d.onclick=()=>goProof(i);
-  proofDotsWrap.appendChild(d);
-}
-
-function goProof(idx){
-  proofIdx=idx;
-  proofTrack.style.transform=`translateX(-${idx*100}%)`;
-  document.querySelectorAll('.proof-dot').forEach((d,i)=>d.classList.toggle('active',i===idx));
-}
-function startProofAuto(){
-  proofAuto=setInterval(()=>goProof((proofIdx+1)%PROOF_TOTAL),3500);
-}
-startProofAuto();
-
-// ── TESTIMONIAL CAROUSEL ──
-let tIdx=0;
-function slideT(dir){
-  const track=document.getElementById('ttrack');
-  const slides=track.querySelectorAll('.t-slide');
-  const visible=window.innerWidth<700?1:2;
-  const max=slides.length-visible;
-  tIdx=Math.max(0,Math.min(tIdx+dir,max));
-  const w=slides[0].offsetWidth+24;
-  track.style.transform=`translateX(-${tIdx*w}px)`;
-}
-
-// ── FAQ ──
-function toggleFaq(btn){btn.parentElement.classList.toggle('open')}
-
-// ── EXIT POPUP ──
-let shown=false;
-document.addEventListener('mouseleave',e=>{
-  if(e.clientY<10&&!shown){shown=true;document.getElementById('popup').style.display='flex'}
-});
-setTimeout(()=>{if(!shown){shown=true;document.getElementById('popup').style.display='flex'}},45000);
+    // Fechar popup
+    document.getElementById('exit-close').addEventListener('click', function() {
+      document.getElementById('exit-overlay').style.display = 'none';
+    });
+    document.getElementById('exit-overlay').addEventListener('click', function(e) {
+      if (e.target === this) this.style.display = 'none';
+    });
+  })();
 </script>
+
 </body>
 </html>
